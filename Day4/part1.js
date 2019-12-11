@@ -24,11 +24,12 @@ function main() {
     const start = 271973;
     const end = 785961;
     let totalIsValid = 0;
-    for (let i = start; i<= end; i++) {
-        if(isValidPassword(i)) {
+    for (let i = start; i <= end; i++) {
+        if (isValidPassword(i)) {
             totalIsValid++;
         }
     }
     console.log(totalIsValid)
 }
+
 main();
