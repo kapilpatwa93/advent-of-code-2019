@@ -48,5 +48,4 @@ function main() {
     }
     console.log(totalIsValid)
 }
-
 main();
