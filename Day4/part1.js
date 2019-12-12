@@ -12,7 +12,6 @@ function isValidPassword(password) {
             isValid = false;
             break;
         }
-
     }
     if (!sameAdjacentPresent) {
         isValid = false;
